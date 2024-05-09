@@ -1,0 +1,22 @@
+
+
+   IlligalArgumentException:-
+   ==========================
+
+     * Have solution to Resolve!
+
+     * In Cucumber, changing feature files between projects or folders 
+       in the resource folder may result in a "IlligalArugumentException" error.
+
+     * Steps to resolve:
+         
+          Right click on feature file--> go to "Run AS" --> click "Run Administration"---
+          -->change the feature path in Run Administarion Dialouge Box ---- click Apply and Close the Dialouge Box--
+          ---> Now can give "Run As" & 1 Cucumber feature --> Snippets Will generate !
+
+
+     Note: 
+       Whenever we get the IlligalArgument Exception by setting 
+       the Proper feature file path we can avoid or Resolve the Exception in Cucumber Framework!
+          
+
