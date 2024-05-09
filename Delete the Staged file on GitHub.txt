@@ -1,0 +1,32 @@
+        
+       Delete the Staged file on GitHub Remote Repository:-
+       =============================================
+
+         Tell Git that you want to delete the file from the repository by staging the deletion. 
+         Use the following command:
+
+                      git rm <file_name>
+
+           As the above command File name should be mention like below:,
+          --------------------------------------------------------------------------------------
+
+                     git rm Exception
+
+          Commit the deletion to your local repository by running the following command:,
+         ----------------------------------------------------------------------------------------------------------
+
+                     git commit -m " Here mention the Any Message to be commit"
+
+           If you want to remove the file from the remote repository (e.g., GitHub), you need to push your local changes:
+          ----------------------------------------------------------------------------------------------------------------------------------------------
+
+                     git push origin <branch_name>
+  
+   After Push the Changes Need to be refresh and File will be get deleted!
+
+
+
+
+
+
+
